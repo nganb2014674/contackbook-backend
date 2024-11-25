@@ -1,20 +1,22 @@
 {
-  "name": "contactbook-backend",
-  "version": "1.0.0",
-  "main": "server.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Thuy Ngan",
-  "license": "ISC",
-  "description": "",
-  "dependencies": {
-    "cors": "^2.8.5",
-    "express": "^4.21.1"
-  },
-  "devDependencies": {
-    "eslint": "^9.15.0",
-    "eslint-config-prettier": "^9.1.0",
-    "prettier": "^3.3.3"
-  }
+    "name": "contactbook-backend",
+    "version": "1.0.0",
+    "main": "server.js",
+    "scripts": {
+        "start": "nodemon server.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Thuy Ngan",
+    "license": "ISC",
+    "description": "",
+    "dependencies": {
+        "cors": "^2.8.5",
+        "express": "^4.21.1"
+    },
+    "devDependencies": {
+        "eslint": "^9.15.0",
+        "eslint-config-prettier": "^9.1.0",
+        "nodemon": "^3.1.7",
+        "prettier": "^3.3.3"
+    }
 }
